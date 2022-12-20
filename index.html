@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Css teste</title>
+</head>
+<header>
+  <h1>Estilização Básica</h1>
+</header>
+
+<body>
+  <section id="Sombra">
+    <h2>Box-Shadow</h2>
+    <p>O box-shadow é uma propriedade do CSS, é utilizado para adicionar efeitos de sombra em volta de um elemento.
+      </br>
+      Você pode especificar mais de um efeito, os separando com virgulas.
+      Uma box-shadow é descrita pelo deslocamentos (offset) X e Y em relação ao elemento, desfoco e propagação do raio e
+      cor.
+    </p>
+    <div class="box-shadow">
+      <input class="estilo1" type="button" value="Enviar">
+      <input class="estilo2" type="button" value="Enviar">
+      <input class="estilo3" type="button" value="Enviar">
+      <input class="estilo4" type="button" value="Enviar">
+      <input class="estilo5" type="button" value="Enviar">
+      <input class="estilo6" type="button" value="Enviar">
+
+    </div>
+  </section>
+  <section id="gradiente">
+    <div class="div-gradient">
+      <h2>Gradiente como Background</h2>
+      <ol>
+        <h3>Propriedade no gradiente</h3>
+        <li>linear-gradient: (valor)DEG, </li>
+        <p>DEG - atributo de algulação ex= 90
+        </p>
+        <p>
+          background: rgb(2,0,36);
+          </br>
+          background: linear-gradient (171deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 100%);</p>
+        <li>radial-gradiente: circle, </li>
+        <p>CIRCLE - atributo de círclulo (sem número na frente ) </p>
+        <p>background: rgb(238,174,202);
+          <br>
+          background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(65,115,173,1) 100%);
+        </p>
+
+        <li>Cor</li>
+        <h4>Separadas por vírulas. Cada uma possui uma porcentagem.</h4>
+        <p>1ª cor (..., rgb (valor) <b>0%</b> - porcentagem da área em que a cor se desfoca (idela zero fica mais difusa
+          a transição)</p>
+        <p>2ª cor (..., rgb (valor) <b>100%</b> - a segunda cor é quem comanda, quanto maior a porcentagem maior será a
+          difusão, qunato menor o valor mais a segunda cor predomina. </p>
+        <h4>Selecionando mias de duas cores</h4>
+        <p> 1ª cor <b>0%</b> -para que ela nao seja densa </p>
+        <p> 2ª cor <b>50%</b> - se aumentar ( ex= 70%) ela expande para a última cor, se diminui ela expande para a
+          primeira cor</p>
+        <p> 3ª cor <b>100%</b> - se diminuir a cor fica densa e o gradiente não fica bonito. </p>
+      </ol>
+    </div>
+    <div class="tabela-gradiente">
+
+      <div class="gradiente-forma1">
+        <legend>1</legend>
+      </div>
+      <div class="gradiente-forma2">
+        <legend>2</legend>
+      </div>
+      <div class="gradiente-forma3">
+        <legend>3</legend>
+      </div>
+      <div class="gradiente-forma4">
+        <legend>4</legend>
+      </div>
+      <div class="gradiente-forma5">
+        <legend>5</legend>
+      </div>
+      <div class="gradiente-borda">
+        <legend>6</legend>
+      </div>
+
+    </div>
+  </section>
+
+
+</body>
+
+</html>
